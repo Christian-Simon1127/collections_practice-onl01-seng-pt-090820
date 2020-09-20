@@ -61,7 +61,7 @@ end
 
 def add_s(array)
   array.each_with_index.map {|item, index|
-    if index == 2
+    if index == 1
       item
     else 
       item << "s"
