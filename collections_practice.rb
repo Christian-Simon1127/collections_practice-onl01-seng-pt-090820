@@ -40,7 +40,7 @@ end
 
 def kesha_maker(array)
   array.collect {|item|
-    array[item][0..1] + "$" + array[item][3]
+    puts array[item][0..1] + "$" + array[item][3]
   }
 end
 
