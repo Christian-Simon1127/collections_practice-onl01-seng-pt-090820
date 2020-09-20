@@ -33,6 +33,11 @@ def reverse_array(array)
     while i < array.length
       array[array.length-i]
       i += 1
+      17
     end
   }
+end
+
+def kesha_maker(array)
+  
 end
