@@ -60,7 +60,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map_with_index {|item, index|
+  array.map_with_index(1) {|item, index|
     if index == 2
       item
     else 
