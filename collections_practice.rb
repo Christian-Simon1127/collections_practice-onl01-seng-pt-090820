@@ -30,8 +30,8 @@ end
 def reverse_array(array)
   counter = 0
   ret_array = []
-  while counter <= array.length
-    ret_array << array[array.size-counter]
+  while counter < array.size
+    ret_array << array[array.length-counter]
     counter += 1
   end
   ret_array
