@@ -59,6 +59,12 @@ def sum_array(array)
   array.inject {|sum, n| sum + n}
 end
 
-
-
-
+def add_s(array)
+  array.map_with_index {|item, index|
+    if index == 2
+      item
+    else 
+      item << "s"
+    end
+  }
+end
