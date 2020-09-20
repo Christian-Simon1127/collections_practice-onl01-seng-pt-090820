@@ -28,14 +28,12 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  array.collect{|item|
-    i = 0
-    while i < array.length
-      array[array.length-i]
-      i += 1
-      17
-    end
-  }
+  counter = 0
+  ret_array = []
+  while counter < array.length
+    ret_array < array[array.length-1]
+  end
+  ret_array
 end
 
 def kesha_maker(array)
