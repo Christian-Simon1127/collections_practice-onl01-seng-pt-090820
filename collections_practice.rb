@@ -41,10 +41,10 @@ end
 def kesha_maker(array)
   counter = 0
   new_array = []
-  while counter < array.length {
+  while counter < array.length 
     new_array << array[item][0..1] + "$" + array[item][3..-1]
     counter++
-  }
+  end
   #puts array[0][0..1] + "$" + array[0][3..-1]
   new_array
 end
