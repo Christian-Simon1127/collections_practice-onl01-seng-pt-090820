@@ -55,6 +55,15 @@ def find_a(array)
   }
 end
 
+def sum_array(array)
+  value = 0
+  counter = 0 
+  
+  while counter < array.length
+    calue += array(counter)
+  end
+end
+
 
 
 
