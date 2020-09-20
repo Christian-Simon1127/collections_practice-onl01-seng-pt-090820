@@ -51,7 +51,7 @@ end
 
 def find_a(array)
   array.select { |item|
-    item.starts_with?("a")
+    item.start_with?("a")
   }
 end
 
